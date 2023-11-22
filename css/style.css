@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Intern";
+  src: url("fonts/Inter.ttf");
+}
+body {
+  margin: 0;
+  height: 1024px;
+  width: 100%;
+}
+body .home {
+  width: 100%;
+  height: 100%;
+}
+body .home .header {
+  max-height: 80px;
+  height: 80px;
+  width: 100%;
+  background-color: #ffffff;
+}
+body .home .header .brand {
+  float: left;
+  width: 22%;
+  height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: right;
+  border: none;
+  border-style: none;
+  border-radius: 0px 0px 40px 0px;
+}
+body .home .header .brand p {
+  font-weight: bolder;
+  margin-top: 30px;
+  float: right;
+  font-family: "Inter";
+  margin-right: 25px;
+}
+body .home .header .navdiv {
+  height: 100%;
+  width: 70%;
+  background-color: #ffffff;
+  float: left;
+}
+body .home .header .navdiv .navlink {
+  float: right;
+  height: 100%;
+  align-items: center;
+}
+body .home .header .navdiv .navlink .link {
+  float: left;
+  height: 100%;
+  width: auto;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-width: 5px;
+  border-color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body .home .header .navdiv .navlink .link p {
+  font-weight: bolder;
+  margin-top: 30px;
+  float: right;
+  font-family: "Inter";
+  margin-right: 25px;
+  text-align: center;
+}
+body .home .header .navdiv .navlink .active {
+  border-color: #ff5500;
+}
+body .home .header .collapse {
+  height: 100%;
+  width: 8%;
+  background-color: #ff5500;
+  float: right;
+  font-size: xx-large;
+  align-items: center;
+  text-align: center;
+}
+body .home .header .collapse i {
+  margin-top: 20px;
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
