@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Intern";
+  src: url("Inter.ttf");
+}
+
+body {
+  margin: 0;
+  height: 1024px;
+  width: 100%;
+}
+
+body .home {
+  width: 100%;
+  height: 100%;
+}
+
+body .home .header {
+  max-height: 80px;
+  height: 80px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+body .home .header .brand {
+  float: left;
+  width: 22%;
+  height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: right;
+  border: none;
+  border-style: none;
+  border-radius: 0px 0px 40px 0px;
+}
+
+body .home .header .brand p {
+  font-weight: bolder;
+  margin-top: 30px;
+  float: right;
+  font-family: "Inter";
+  margin-right: 25px;
+}
+
+body .home .header .navdiv {
+  height: 100%;
+  width: 70%;
+  background-color: #ffffff;
+  float: left;
+}
+
+body .home .header .navdiv .navlink {
+  float: right;
+  height: 100%;
+  align-items: center;
+}
+
+body .home .header .navdiv .navlink .link {
+  float: left;
+  height: 100%;
+  width: auto;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-width: 5px;
+  border-color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body .home .header .navdiv .navlink .link p {
+  font-weight: bolder;
+  margin-top: 30px;
+  float: right;
+  font-family: "Inter";
+  margin-right: 25px;
+  text-align: center;
+}
+
+body .home .header .navdiv .navlink .active {
+  border-color: #ff5500;
+}
+
+body .home .header .collapse {
+  height: 100%;
+  width: 8%;
+  background-color: #ff5500;
+  float: right;
+  font-size: xx-large;
+  align-items: center;
+  text-align: center;
+}
+
+body .home .header .collapse i {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+body .home .main {
+  height: 870px;
+
+}
+
+body .home .main .left {
+  float: left;
+  width: 56%;
+
+}
+
+
+body .home .main .left .m_h1 {
+  margin-top: 150px;
+  margin-left: 120px;
+  font-size: 54px;
+  margin-bottom: 22px;
+}
+
+body .home .main .left button {
+  background-color: #ff5500;
+  margin-left: 120px;
+  height: 50px;
+  width: auto;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 24px;
+  border: none;
+  border-style: none;
+  border-radius: 10px 0px 10px 0px;
+}
+
+body .home .main .left .m_text {
+  margin-left: 120px;
+}
+
+
+body .home .main .right {
+  float: right;
+  width: 44%;
+  background-color: #ff5500;
+  background-image: url("img/plate2.jpg");
+  height: 100%;
+  border-radius: 150px 0px 0px 0px;
+}
+
+body .s_height{
+  width: 100%;
+  height: 100%;
+  
+}
+
+body .s_height .top{
+  height: 150px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+body .s_height .top .left{
+  float: left;
+}
+
+body .s_height .top .right{
+  float: right;
+}
+
+body .s_height .bottom{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+body .s_height .bottom .food_item{
+  width: 100%;
+  display: block;
+  height: 300px;
+  align-items: center;
+}
+
+body .s_height .bottom .food_item .items{
+  height: 500px;
+  width: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 50px;
+  float: left;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
